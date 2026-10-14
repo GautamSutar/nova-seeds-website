@@ -1,13 +1,10 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
-import { useLanguage } from '../context/LanguageContext';
 import faqData from '../data/faqs.json';
 
 export default function FAQ() {
   const { t } = useTranslation();
-  const { isHindi } = useLanguage();
 
   return (
     <>

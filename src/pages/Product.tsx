@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
-import { MessageCircle, Download, TrendingUp, Shield, Droplets, Sprout, Globe, ChevronRight } from 'lucide-react';
+import { MessageCircle, Download, TrendingUp, Shield, Droplets, Sprout, Globe } from 'lucide-react';
 import SEO from '../components/SEO';
 import { useLanguage } from '../context/LanguageContext';
 import { siteConfig } from '../config';
@@ -125,7 +123,7 @@ export default function Product() {
           <div>
             <h2 className="section-title">{t('benefits.title')}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-              {BENEFITS.map((b, i) => (
+              {BENEFITS.map((b) => (
                 <div key={b.en} className="card p-5 flex items-start gap-4 border border-green-100">
                   <div className="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center shrink-0">
                     <b.icon size={22} className="text-brand-green" />

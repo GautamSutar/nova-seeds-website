@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, MapPin } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from 'react-i18next';

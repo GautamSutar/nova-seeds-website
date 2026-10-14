@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { supabase } from '../../lib/supabase';
-import { LayoutDashboard, Users, MessageSquare, LogOut, Store } from 'lucide-react';
+import { supabase } from '../lib/supabase';
+import { LayoutDashboard, MessageSquare, LogOut, Store } from 'lucide-react';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();

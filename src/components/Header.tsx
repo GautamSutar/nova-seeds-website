@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, Phone } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
 import { siteConfig } from '../config';
 import LanguageToggle from './LanguageToggle';
 

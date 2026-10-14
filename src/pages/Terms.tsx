@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import SEO from '../components/SEO';
 

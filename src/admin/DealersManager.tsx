@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import type { FormEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { supabase, type Dealer } from '../../lib/supabase';
-import { ArrowLeft, Plus, Trash2, Edit3, CheckCircle, XCircle } from 'lucide-react';
+import { supabase, type Dealer } from '../lib/supabase';
+import { ArrowLeft, Plus, Trash2, CheckCircle, XCircle } from 'lucide-react';
 
 export default function DealersManager() {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ export default function DealersManager() {
     setLoading(false);
   };
 
-  const addDealer = async (e: React.FormEvent) => {
+  const addDealer = async (e: FormEvent) => {
     e.preventDefault();
     await supabase.from('dealers').insert([{ ...form, is_active: true }]);
     setShowAdd(false);

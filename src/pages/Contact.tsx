@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import SEO from '../components/SEO';
