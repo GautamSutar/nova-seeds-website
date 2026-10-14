@@ -86,7 +86,11 @@
       "noResults": "No dealer found. Please contact us.",
       "becomeDealer": "Become a Dealer",
       "becomeDealerDesc": "Join us and sell Nova Seeds in your area.",
-      "applyNow": "Apply Now"
+      "applyNow": "Apply Now",
+      "statesCovered": "States Covered",
+      "authorizedDealers": "Authorized Dealers",
+      "allStates": "All States",
+      "verified": "Authorized Dealer"
     },
     "contact": {
       "title": "Contact Us",

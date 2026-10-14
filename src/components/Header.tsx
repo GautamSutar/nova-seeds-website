@@ -12,7 +12,6 @@ const NAV_LINKS = [
   { to: '/benefits', key: 'benefits' },
   { to: '/dealers', key: 'dealers' },
   { to: '/about', key: 'about' },
-  { to: '/contact', key: 'contact' },
 ] as const;
 
 export default function Header() {
@@ -27,6 +26,16 @@ export default function Header() {
   }, []);
 
   const closeMenu = () => setOpen(false);
+
+  const scrollToFooter = () => {
+    closeMenu();
+    const footer = document.getElementById('site-footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      window.location.href = '/#site-footer';
+    }
+  };
 
   return (
     <header
@@ -64,6 +73,13 @@ export default function Header() {
               {t(`nav.${key}`)}
             </NavLink>
           ))}
+          <button
+            type="button"
+            onClick={scrollToFooter}
+            className="text-sm font-medium text-green-100 hover:text-white transition-colors duration-200"
+          >
+            {t('nav.contact')}
+          </button>
         </nav>
 
         {/* Right side */}
@@ -108,6 +124,13 @@ export default function Header() {
                 {t(`nav.${key}`)}
               </NavLink>
             ))}
+            <button
+              type="button"
+              onClick={scrollToFooter}
+              className="px-6 py-4 text-base font-medium border-b border-green-900 text-left text-green-100 hover:bg-green-900 transition-colors"
+            >
+              {t('nav.contact')}
+            </button>
             <a
               href={`tel:${siteConfig.phone}`}
               onClick={closeMenu}

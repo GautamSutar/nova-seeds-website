@@ -86,7 +86,11 @@
       "noResults": "कोई डीलर नहीं मिला। संपर्क करें।",
       "becomeDealer": "डीलर बनें",
       "becomeDealerDesc": "हमारे साथ जुड़ें और अपने क्षेत्र में नोवा सीड्स बेचें।",
-      "applyNow": "अभी आवेदन करें"
+      "applyNow": "अभी आवेदन करें",
+      "statesCovered": "राज्यों में उपस्थिति",
+      "authorizedDealers": "अधिकृत डीलर",
+      "allStates": "सभी राज्य",
+      "verified": "अधिकृत डीलर"
     },
     "contact": {
       "title": "हमसे संपर्क करें",

@@ -1,4 +1,4 @@
-import { Phone, MapPin } from 'lucide-react';
+import { Phone, MapPin, ShieldCheck } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from 'react-i18next';
 
@@ -29,11 +29,25 @@ export default function DealerCard({ dealer }: DealerCardProps) {
     : `https://maps.google.com/?q=${encodeURIComponent(dealer.address)}`;
 
   return (
-    <div className="card p-5 border border-green-100 hover:border-brand-mustard transition-colors">
-      <h3 className="font-bold text-brand-green text-lg leading-tight mb-1">
-        {isHindi && dealer.name_hi ? dealer.name_hi : dealer.name}
-      </h3>
-      <div className="flex items-start gap-1.5 text-gray-500 text-sm mb-3">
+    <div className="card p-5 border border-green-100 hover:border-brand-mustard hover:shadow-lg transition-all">
+      <div className="flex items-start justify-between gap-2 mb-1">
+        <h3 className="font-bold text-brand-green text-lg leading-tight">
+          {isHindi && dealer.name_hi ? dealer.name_hi : dealer.name}
+        </h3>
+        <span
+          className="flex items-center gap-1 shrink-0 text-[10px] font-semibold text-brand-green bg-green-50 px-2 py-1 rounded-full"
+          title={t('dealers.verified')}
+        >
+          <ShieldCheck size={12} />
+        </span>
+      </div>
+      <div className="text-xs font-medium text-gray-400 mb-2">
+        {isHindi && dealer.city_hi ? dealer.city_hi : dealer.city}
+        {dealer.district && dealer.district !== dealer.city && (
+          <> · {isHindi && dealer.district_hi ? dealer.district_hi : dealer.district}</>
+        )}
+      </div>
+      <div className="flex items-start gap-1.5 text-gray-500 text-sm mb-4">
         <MapPin size={14} className="text-brand-mustard mt-0.5 shrink-0" />
         <span>{isHindi && dealer.address_hi ? dealer.address_hi : dealer.address}</span>
       </div>

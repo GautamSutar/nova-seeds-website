@@ -9,7 +9,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-green-950 text-green-100">
+    <footer id="site-footer" className="bg-green-950 text-green-100">
       {/* Main footer */}
       <div className="container-lg px-4 py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Brand */}

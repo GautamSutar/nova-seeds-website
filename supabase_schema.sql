@@ -130,9 +130,14 @@ CREATE POLICY "Allow admin all on faqs"
 -- =====================================================
 INSERT INTO public.dealers (name, name_hi, address, address_hi, phone, state, state_hi, district, district_hi, city, city_hi, is_active)
 VALUES
-  ('Rajesh Agrovet', 'राजेश एग्रोवेट', 'Main Market, Alwar, Rajasthan – 301001', 'मुख्य बाज़ार, अलवर, राजस्थान – 301001', '+91-XXXXXXXXXX', 'Rajasthan', 'राजस्थान', 'Alwar', 'अलवर', 'Alwar', 'अलवर', TRUE),
-  ('Kisan Beej Bhandar', 'किसान बीज भंडार', 'Subzi Mandi Road, Bharatpur, Rajasthan – 321001', 'सब्जी मंडी रोड, भरतपुर, राजस्थान – 321001', '+91-XXXXXXXXXX', 'Rajasthan', 'राजस्थान', 'Bharatpur', 'भरतपुर', 'Bharatpur', 'भरतपुर', TRUE),
-  ('Jai Kisan Agricultural Store', 'जय किसान एग्रीकल्चरल स्टोर', 'Krishi Road, Mathura, UP – 281001', 'कृषि रोड, मथुरा, उत्तर प्रदेश – 281001', '+91-XXXXXXXXXX', 'Uttar Pradesh', 'उत्तर प्रदेश', 'Mathura', 'मथुरा', 'Mathura', 'मथुरा', TRUE);
+  ('Rajesh Agrovet', 'राजेश एग्रोवेट', 'Main Market, Alwar, Rajasthan – 301001', 'मुख्य बाज़ार, अलवर, राजस्थान – 301001', '+91-9414123456', 'Rajasthan', 'राजस्थान', 'Alwar', 'अलवर', 'Alwar', 'अलवर', TRUE),
+  ('Kisan Beej Bhandar', 'किसान बीज भंडार', 'Subzi Mandi Road, Bharatpur, Rajasthan – 321001', 'सब्ज़ी मंडी रोड, भरतपुर, राजस्थान – 321001', '+91-9829234567', 'Rajasthan', 'राजस्थान', 'Bharatpur', 'भरतपुर', 'Bharatpur', 'भरतपुर', TRUE),
+  ('Shree Balaji Krishi Kendra', 'श्री बालाजी कृषि केंद्र', 'Station Road, Sikar, Rajasthan – 332001', 'स्टेशन रोड, सीकर, राजस्थान – 332001', '+91-9887345678', 'Rajasthan', 'राजस्थान', 'Sikar', 'सीकर', 'Sikar', 'सीकर', TRUE),
+  ('Jai Kisan Agricultural Store', 'जय किसान एग्रीकल्चरल स्टोर', 'Krishi Road, Mathura, Uttar Pradesh – 281001', 'कृषि रोड, मथुरा, उत्तर प्रदेश – 281001', '+91-9456445789', 'Uttar Pradesh', 'उत्तर प्रदेश', 'Mathura', 'मथुरा', 'Mathura', 'मथुरा', TRUE),
+  ('Ganga Beej Bhandar', 'गंगा बीज भंडार', 'GT Road, Agra, Uttar Pradesh – 282001', 'जी.टी. रोड, आगरा, उत्तर प्रदेश – 282001', '+91-9627556890', 'Uttar Pradesh', 'उत्तर प्रदेश', 'Agra', 'आगरा', 'Agra', 'आगरा', TRUE),
+  ('Annadata Agro Center', 'अन्नदाता एग्रो सेंटर', 'Old Bus Stand, Hisar, Haryana – 125001', 'पुराना बस स्टैंड, हिसार, हरियाणा – 125001', '+91-9896667901', 'Haryana', 'हरियाणा', 'Hisar', 'हिसार', 'Hisar', 'हिसार', TRUE),
+  ('Malwa Seed Corporation', 'मालवा सीड कॉर्पोरेशन', 'Nagda Road, Ratlam, Madhya Pradesh – 457001', 'नागदा रोड, रतलाम, मध्य प्रदेश – 457001', '+91-9425778012', 'Madhya Pradesh', 'मध्य प्रदेश', 'Ratlam', 'रतलाम', 'Ratlam', 'रतलाम', TRUE),
+  ('Sona Krishi Seva Kendra', 'सोना कृषि सेवा केंद्र', 'Civil Lines, Kota, Rajasthan – 324001', 'सिविल लाइंस, कोटा, राजस्थान – 324001', '+91-9414889123', 'Rajasthan', 'राजस्थान', 'Kota', 'कोटा', 'Kota', 'कोटा', TRUE);
 
 -- =====================================================
 -- SEED DATA – Sample FAQs
