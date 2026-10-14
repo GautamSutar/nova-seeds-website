@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Phone, Mail, MapPin,  } from 'lucide-react';
 import { siteConfig } from '../config';
+import logoImage from '../assets/logo.jpg';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -15,7 +16,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 mb-3">
             <img
-              src="/src/assets/logo.jpg"
+              src={logoImage}
               alt="Nova Seeds Logo"
               className="w-11 h-11 rounded-full object-cover border-2 border-brand-mustard shadow"
             />

@@ -8,6 +8,7 @@ import TestimonialSlider from '../components/TestimonialSlider';
 import SEO from '../components/SEO';
 import { useLanguage } from '../context/LanguageContext';
 import testimonials from '../data/testimonials.json';
+import heroImage from '../assets/hero.png';
 import { siteConfig } from '../config';
 
 const BENEFITS = [
@@ -122,7 +123,7 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <img
-                src="/src/assets/hero.png"
+                src={heroImage}
                 alt="Gold Medal 941 Hybrid Mustard Seeds"
                 className="w-full max-w-sm rounded-3xl shadow-xl object-contain drop-shadow-md border-2 border-brand-mustard/40"
               />

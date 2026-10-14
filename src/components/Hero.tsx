@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { MapPin, MessageCircle, Phone, Award, Star } from 'lucide-react';
 import { siteConfig } from '../config';
+import heroImage from '../assets/hero.png';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -115,7 +116,7 @@ export default function Hero() {
         >
           <div className="relative w-full max-w-lg lg:max-w-2xl flex justify-center">
             <img
-              src="/src/assets/hero.png"
+              src={heroImage}
               alt="Gold Medal 941 Hybrid Mustard Seed – Nova Seeds"
               className="w-full h-auto max-h-[500px] lg:max-h-[560px] rounded-3xl shadow-2xl object-cover drop-shadow-2xl border-2 border-brand-mustard/30"
             />

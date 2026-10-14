@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import { useLanguage } from '../context/LanguageContext';
 import { siteConfig } from '../config';
 import productData from '../data/product.json';
+import heroImage from '../assets/hero.png';
 
 const BENEFITS = [
   { icon: TrendingUp, hi: 'उच्च उपज क्षमता', en: 'High Yield Potential', descHi: 'प्रति एकड़ अधिक पैदावार की संभावना', descEn: 'Better yield per acre potential' },
@@ -74,7 +75,7 @@ export default function Product() {
             <div>
               <div className="flex justify-center">
                 <img
-                  src="/src/assets/hero.png"
+                  src={heroImage}
                   alt="Gold Medal 941 Hybrid Mustard Seeds – Nova Seeds"
                   className="w-full max-w-sm rounded-3xl shadow-xl object-contain drop-shadow-md border-2 border-brand-mustard/40"
                 />

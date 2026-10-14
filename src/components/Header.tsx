@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Menu, X, Phone } from 'lucide-react';
 import { siteConfig } from '../config';
 import LanguageToggle from './LanguageToggle';
+import logoImage from '../assets/logo.jpg';
 
 const NAV_LINKS = [
   { to: '/', key: 'home' },
@@ -37,7 +38,7 @@ export default function Header() {
         {/* Logo */}
         <Link to="/" onClick={closeMenu} className="flex items-center gap-2 shrink-0">
           <img
-            src="/src/assets/logo.jpg"
+            src={logoImage}
             alt="Nova Seeds Logo"
             className="w-11 h-11 rounded-full object-cover border-2 border-brand-mustard shadow"
           />
