@@ -1,0 +1,165 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "product": "Product",
+      "benefits": "Benefits",
+      "dealers": "Find Dealer",
+      "about": "About Us",
+      "gallery": "Gallery",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "callNow": "Call Now",
+      "whatsapp": "WhatsApp Us"
+    },
+    "hero": {
+      "headline": "Nova Seeds Gold Medal 941",
+      "subheadline": "Hybrid Mustard Seeds",
+      "tagline": "Good Seeds, Abundant Harvest",
+      "cta1": "Find a Dealer",
+      "cta2": "WhatsApp Us",
+      "cta3": "Call Now",
+      "badge1": "Farmer's Trust",
+      "badge2": "Gold Medal 941"
+    },
+    "benefits": {
+      "title": "Benefits of Gold Medal 941",
+      "subtitle": "Why farmers choose us",
+      "yield": "High Yield Potential",
+      "yieldDesc": "Better yield per acre potential",
+      "disease": "Disease Tolerance",
+      "diseaseDesc": "Better protection from common diseases",
+      "oil": "Good Oil Percentage",
+      "oilDesc": "Better quality oil content",
+      "plant": "Strong Plant",
+      "plantDesc": "More branches, more crop",
+      "allSeason": "Multi-region Suitable",
+      "allSeasonDesc": "Suitable for various agro-climatic regions"
+    },
+    "product": {
+      "title": "Gold Medal 941 – Hybrid Mustard Seeds",
+      "description": "Nova Seeds Gold Medal 941 is an advanced hybrid mustard seed developed keeping Indian farmers' needs in mind.",
+      "specs": "Specifications",
+      "sowingTime": "Sowing Time",
+      "sowingTimeVal": "October – November (confirm with expert)",
+      "seedRate": "Seed Rate",
+      "seedRateVal": "To be confirmed by company",
+      "spacing": "Row Spacing",
+      "spacingVal": "To be confirmed by company",
+      "maturity": "Maturity Days",
+      "maturityVal": "To be confirmed by company",
+      "oilContent": "Oil Content",
+      "oilContentVal": "To be confirmed by company",
+      "yieldPotential": "Yield Potential",
+      "yieldPotentialVal": "To be confirmed by company",
+      "packSizes": "Pack Sizes",
+      "packSizesVal": "To be confirmed by company",
+      "enquireNow": "Enquire Now",
+      "orderWhatsApp": "Order on WhatsApp",
+      "downloadBrochure": "Download Brochure",
+      "imageDisclaimer": "* Images are for illustration only. Actual packaging may vary.",
+      "cultivationGuide": "Cultivation Guide",
+      "cultivation": {
+        "title": "Mustard Cultivation – General Guide",
+        "step1Title": "Prepare the Field",
+        "step1": "Plough the field well and make the soil fine and crumbly.",
+        "step2Title": "Sowing",
+        "step2": "Sow seeds at the right time with proper spacing.",
+        "step3Title": "Irrigation",
+        "step3": "Irrigate as per the crop requirement.",
+        "step4Title": "Fertilizers",
+        "step4": "Apply fertilizers based on soil test results.",
+        "step5Title": "Harvesting",
+        "step5": "Harvest when pods are mature.",
+        "disclaimer": "* Consult your local agricultural expert for exact quantities and timing."
+      }
+    },
+    "dealers": {
+      "title": "Find Your Nearest Dealer",
+      "subtitle": "Search by State, District or City",
+      "searchPlaceholder": "Search by name or city...",
+      "selectState": "Select State",
+      "selectDistrict": "Select District",
+      "selectCity": "Select City",
+      "call": "Call",
+      "directions": "Get Directions",
+      "noResults": "No dealer found. Please contact us.",
+      "becomeDealer": "Become a Dealer",
+      "becomeDealerDesc": "Join us and sell Nova Seeds in your area.",
+      "applyNow": "Apply Now"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help. Ask us anything.",
+      "name": "Your Name",
+      "mobile": "Mobile Number",
+      "state": "State",
+      "district": "District",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message received! We'll contact you soon.",
+      "error": "Something went wrong. Please try again.",
+      "validation": {
+        "nameRequired": "Name is required",
+        "mobileRequired": "Mobile number is required",
+        "mobileInvalid": "Enter a valid 10-digit number",
+        "stateRequired": "State is required",
+        "messageRequired": "Message is required"
+      },
+      "workingHours": "Working Hours",
+      "address": "Address"
+    },
+    "about": {
+      "title": "About Nova Seeds",
+      "story": "Nova Research & Hybrid Seeds was established with the mission to help Indian farmers. Through advanced seed research, we aim to provide better yield and more profit to farmers across India.",
+      "mission": "Our Mission",
+      "missionDesc": "To provide high-quality seeds to every farmer and increase their income.",
+      "research": "Our Research",
+      "researchDesc": "We continuously research new varieties to provide the best seeds to farmers.",
+      "quality": "Quality",
+      "qualityDesc": "Our seeds undergo rigorous quality checks."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers to your questions"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "subtitle": "Field and product photos"
+    },
+    "testimonials": {
+      "title": "What Farmers Say",
+      "subtitle": "Experiences of our satisfied farmers"
+    },
+    "footer": {
+      "tagline": "Good Seeds, Abundant Harvest",
+      "quickLinks": "Quick Links",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "refund": "Refund Policy",
+      "disclaimer": "Disclaimer",
+      "copyright": "© 2024 Nova Seeds. All rights reserved.",
+      "seedLicense": "Seed License No:",
+      "imageDisclaimer": "Images are for illustration only."
+    },
+    "cookie": {
+      "message": "We use cookies to improve your experience.",
+      "accept": "Accept",
+      "reject": "Reject",
+      "customize": "Customize",
+      "learnMore": "Learn More"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated"
+    },
+    "terms": {
+      "title": "Terms & Conditions"
+    },
+    "disclaimer": {
+      "title": "Disclaimer"
+    }
+  }
+}

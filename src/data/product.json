@@ -1,0 +1,19 @@
+{
+  "id": "gold-medal-941",
+  "nameHi": "Gold Medal 941 – हाइब्रिड सरसों बीज",
+  "nameEn": "Gold Medal 941 – Hybrid Mustard Seeds",
+  "images": [
+    "/images/product-pack-large.webp",
+    "/images/product-pack-small.webp",
+    "/images/mustard-field.webp"
+  ],
+  "specs": {
+    "sowingTime": { "hi": "अक्टूबर – नवम्बर (विशेषज्ञ से पुष्टि करें)", "en": "October – November (confirm with expert)" },
+    "seedRate": { "hi": "कंपनी से पुष्टि करें", "en": "To be confirmed by company" },
+    "spacing": { "hi": "कंपनी से पुष्टि करें", "en": "To be confirmed by company" },
+    "maturity": { "hi": "कंपनी से पुष्टि करें", "en": "To be confirmed by company" },
+    "oilContent": { "hi": "कंपनी से पुष्टि करें", "en": "To be confirmed by company" },
+    "yieldPotential": { "hi": "कंपनी से पुष्टि करें", "en": "To be confirmed by company" },
+    "packSizes": { "hi": "कंपनी से पुष्टि करें", "en": "To be confirmed by company" }
+  }
+}

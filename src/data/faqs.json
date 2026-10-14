@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f1",
+    "questionHi": "Gold Medal 941 की बुआई का सही समय क्या है?",
+    "questionEn": "What is the right sowing time for Gold Medal 941?",
+    "answerHi": "सरसों की बुआई सामान्यतः अक्टूबर से नवम्बर के बीच की जाती है। सटीक समय के लिए अपने क्षेत्र के कृषि विशेषज्ञ या हमारे डीलर से संपर्क करें।",
+    "answerEn": "Mustard is generally sown between October and November. For exact timing, contact your local agricultural expert or our dealer.",
+    "category": "cultivation"
+  },
+  {
+    "id": "f2",
+    "questionHi": "Gold Medal 941 बीज कितना डालना चाहिए?",
+    "questionEn": "What is the recommended seed rate for Gold Medal 941?",
+    "answerHi": "बीज दर के बारे में सटीक जानकारी के लिए कंपनी या अपने नज़दीकी डीलर से संपर्क करें।",
+    "answerEn": "For accurate seed rate information, please contact the company or your nearest dealer.",
+    "category": "cultivation"
+  },
+  {
+    "id": "f3",
+    "questionHi": "Gold Medal 941 कहाँ से खरीदें?",
+    "questionEn": "Where can I buy Gold Medal 941?",
+    "answerHi": "आप हमारे 'डीलर खोजें' पेज पर जाकर अपने नज़दीकी अधिकृत डीलर को खोज सकते हैं। या सीधे हमें WhatsApp करें।",
+    "answerEn": "Visit our 'Find Dealer' page to find your nearest authorized dealer, or WhatsApp us directly.",
+    "category": "purchase"
+  },
+  {
+    "id": "f4",
+    "questionHi": "असली नोवा सीड्स बीज की पहचान कैसे करें?",
+    "questionEn": "How to identify genuine Nova Seeds products?",
+    "answerHi": "असली बीज पर नोवा सीड्स का आधिकारिक लोगो, बैच नंबर और बीज लाइसेंस नंबर होता है। केवल अधिकृत डीलरों से ही खरीदें।",
+    "answerEn": "Genuine seeds have the official Nova Seeds logo, batch number, and seed license number on the pack. Buy only from authorized dealers.",
+    "category": "authenticity"
+  },
+  {
+    "id": "f5",
+    "questionHi": "क्या यह बीज सभी राज्यों के लिए उपयुक्त है?",
+    "questionEn": "Is this seed suitable for all states?",
+    "answerHi": "Gold Medal 941 विभिन्न क्षेत्रों के लिए विकसित किया गया है। अपने क्षेत्र की उपयुक्तता के लिए हमसे संपर्क करें।",
+    "answerEn": "Gold Medal 941 is developed for various regions. Contact us to check suitability for your specific area.",
+    "category": "general"
+  },
+  {
+    "id": "f6",
+    "questionHi": "डीलर कैसे बनें?",
+    "questionEn": "How to become a dealer?",
+    "answerHi": "'डीलर खोजें' पेज पर 'डीलर बनें' फॉर्म भरें या हमें सीधे संपर्क करें।",
+    "answerEn": "Fill the 'Become a Dealer' form on the 'Find Dealer' page or contact us directly.",
+    "category": "business"
+  }
+]

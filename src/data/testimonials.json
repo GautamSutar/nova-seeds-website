@@ -1,0 +1,32 @@
+[
+  {
+    "id": "t1",
+    "nameHi": "रामलाल शर्मा",
+    "nameEn": "Ramlal Sharma",
+    "locationHi": "अलवर, राजस्थान",
+    "locationEn": "Alwar, Rajasthan",
+    "textHi": "नोवा सीड्स के Gold Medal 941 से मुझे बहुत अच्छी फसल मिली। अगले साल भी यही बीज लूँगा।",
+    "textEn": "I got a very good crop with Nova Seeds Gold Medal 941. Will use the same seeds next year too.",
+    "rating": 5
+  },
+  {
+    "id": "t2",
+    "nameHi": "सुरेश पटेल",
+    "nameEn": "Suresh Patel",
+    "locationHi": "भरतपुर, राजस्थान",
+    "locationEn": "Bharatpur, Rajasthan",
+    "textHi": "बीज का अंकुरण बहुत अच्छा था। पौधे मजबूत हुए। नोवा सीड्स पर भरोसा है।",
+    "textEn": "Germination was very good. Plants were strong. I trust Nova Seeds.",
+    "rating": 5
+  },
+  {
+    "id": "t3",
+    "nameHi": "मोहन सिंह",
+    "nameEn": "Mohan Singh",
+    "locationHi": "मथुरा, उत्तर प्रदेश",
+    "locationEn": "Mathura, Uttar Pradesh",
+    "textHi": "इस बार पहली बार Gold Medal 941 आज़माया। डीलर ने सही सलाह दी।",
+    "textEn": "Tried Gold Medal 941 for the first time this year. The dealer gave good advice.",
+    "rating": 4
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d1",
+    "name": "Rajesh Agrovet",
+    "nameHi": "राजेश एग्रोवेट",
+    "address": "Main Market, Alwar, Rajasthan – 301001",
+    "addressHi": "मुख्य बाज़ार, अलवर, राजस्थान – 301001",
+    "phone": "+91-XXXXXXXXXX",
+    "state": "Rajasthan",
+    "stateHi": "राजस्थान",
+    "district": "Alwar",
+    "districtHi": "अलवर",
+    "city": "Alwar",
+    "cityHi": "अलवर",
+    "lat": 27.5530,
+    "lng": 76.6346
+  },
+  {
+    "id": "d2",
+    "name": "Kisan Beej Bhandar",
+    "nameHi": "किसान बीज भंडार",
+    "address": "Subzi Mandi Road, Bharatpur, Rajasthan – 321001",
+    "addressHi": "सब्जी मंडी रोड, भरतपुर, राजस्थान – 321001",
+    "phone": "+91-XXXXXXXXXX",
+    "state": "Rajasthan",
+    "stateHi": "राजस्थान",
+    "district": "Bharatpur",
+    "districtHi": "भरतपुर",
+    "city": "Bharatpur",
+    "cityHi": "भरतपुर",
+    "lat": 27.2152,
+    "lng": 77.5030
+  },
+  {
+    "id": "d3",
+    "name": "Jai Kisan Agricultural Store",
+    "nameHi": "जय किसान एग्रीकल्चरल स्टोर",
+    "address": "Krishi Road, Mathura, UP – 281001",
+    "addressHi": "कृषि रोड, मथुरा, उत्तर प्रदेश – 281001",
+    "phone": "+91-XXXXXXXXXX",
+    "state": "Uttar Pradesh",
+    "stateHi": "उत्तर प्रदेश",
+    "district": "Mathura",
+    "districtHi": "मथुरा",
+    "city": "Mathura",
+    "cityHi": "मथुरा",
+    "lat": 27.4924,
+    "lng": 77.6737
+  }
+]
